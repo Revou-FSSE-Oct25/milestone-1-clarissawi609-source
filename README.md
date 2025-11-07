@@ -1,1 +1,14 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/KTVBmApB)
+1. Detailed list of feature:
+- navigation
+- donwload cv
+- request form
+
+2. Outline
+a. home:
+- about me (Clarissa WIjaya)
+- Skills
+- Feature Projects
+- Donwload My CV
+
+3. akses Page
+- Saat klik link akan muncul di landing page "home" 
