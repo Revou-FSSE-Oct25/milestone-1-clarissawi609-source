@@ -5,64 +5,62 @@
     <!-- Team Intro -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name=""description" content= "Portfolio website of Clarissa Wijaya showcasing our projects and learning journey.">
+    <meta name="description" content= "Portfolio website of Clarissa Wijaya showcasing our projects and learning journey.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <tittle>Clarissa Wijaya Portofolio Website</title>
 </head>
-
-<body>    
-    <header>
-        <h1> Portofolio Website of Clarissa Wijaya </h1>
+<header class="Header">
+        <h1> Portofolio of Clarissa Wijaya </h1>
         <nav>
             <a href="index.html"><strong>Home</strong></a>
             <span style="margin: 0px; color: black;">|</span>
             <a href="pages/hire_me.html"><strong>Hire Me!</strong></a>
             <span style="margin: 0px; color: black;"></span>
         </nav>
-    </header>
-    <main>
-        <section id="learning-journey"> 
-            <div>
-                <h2>Clarissa Wijaya </h2>
-                <div>
-                    <img src="image/clarissa_photo.JPG" alt="Clarissa_Photo" width="250">
-                </div>
-            <nav>
-            <a href="#skills">Skills</a>
-            <span style="margin: 0 10px; color: black;">|</span>
-            <a href="#featured-projects">Featured Projects</a>
-            <span style="margin: 0 10px; color: black;">|</span>
-            <a href="#donwload-cv">Donwload My CV!</a>
-            </nav>
-            <div> 
-                <p>
-                    I am a dedicated and responsible professional with strong experience in collaborative teamwork,
-                    deadline management,
-                    and delivering high-quality results.
-                    <br><br>
-                    Known for my adaptability and quick learning, I thrive in dynamic environments that challenge me
-                    to grow and acquire
-                    new skills. I’m also highly responsive, proactive, and passionate about continuous improvement —
-                    both personally and
-                    professionally.
-                    <br><br>
-                    With a diverse background in the digital & information technology, I bring a unique combination
-                    of technical
-                    understanding and practical problem-solving. My expertise includes computer system
-                    troubleshooting, technical
-                    support, and cross-functional collaboration to ensure smooth operations and efficient solutions.
-                    <br><br>
-                    I enjoy connecting with new people, building strong professional relationships, and
-                    <br>contributing positively to any team I’m part of.
-                </p>
-        <!-- learning Journey -->
-        </section>
+</header>
 
-        <section id="Skills" > 
-        <!-- Skills -->
-         <section id="skills">
+<body class="body">    
+    <main>
+        <nav class = "nav ul">
+                 <a href="#skills"><strong>Skills</strong></a>
+            <span style="margin: 0 10px; color: black;">|</span>
+                <a href="#featured-projects"><strong>Featured Projects</strong></a>
+            <span style="margin: 0 10px; color: black;">|</span>
+                <a href="#donwload-cv"><strong>Donwload My CV!</strong></a>
+            </nav>
+
+        <div class = "grid-container">
+             <!-- 1st box -->
+            <div class="box" >
+             <!-- About me -->
+             <h2> Clarissa Wijaya </h2>
+                <div class="avatar">
+                <img src="image/clarissa_photo.JPG" alt="Clarissa_Photo" width="250">
+                </div>
+            <p>
+            I am a dedicated and responsible professional with strong experience in collaborative teamwork,
+            deadline management,
+            and delivering high-quality results.
+            <br><br>
+            Known for my adaptability and quick learning, I thrive in dynamic environments that challenge me
+            to grow and acquire
+            new skills. I’m also highly responsive, proactive, and passionate about continuous improvement —
+            both personally and
+            professionally.
+            <br><br>
+            I enjoy connecting with new people, building strong professional relationships, and
+            <br>contributing positively to any team I’m part of.
+            </p>
+            </div>
+
+            <!-- 2nd box -->
+            <div class="box" >
+            <!-- Skills -->
+            <section id="skills">
             <h2>Skills</h2>
 
-            <table border="1" cellpadding="10" >
+            <table  cellpadding="10">
                 <tbody>
                     <tr>
                         <th>Technical Skills</th>
@@ -81,11 +79,14 @@
                     </tr>
                 </tbody>
             </table>
-        </section>
+            </section>
 
-        <section id="featured-projects"> 
-        <!-- featured-projects -->
-         <section id="d-projects">
+            </div>
+
+            <!-- 3rd box -->
+            <div class="box">
+            
+            <!-- featured-projects -->
             <h2>Featured Projects </h2>
             <p>
                 I love Improving my skill -- so I Learn on some Software Engineer projects during the RevoU Program
@@ -102,8 +103,14 @@
                 <li><strong>Javascript and Typescript</strong></li>
                 <p>Learn How to crafting an interctive Landing Page using Javascript</p>
             </ul>
-        </section>
+            </div>
 
+        </div>
+        
+
+    
+
+       
     </main>   
     
     <footer>
